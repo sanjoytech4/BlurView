@@ -1,0 +1,27 @@
+<com.example.blurview.BlurView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/blurview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"        
+        android:orientation="vertical">
+        <Space
+            android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/header"/>
+        
+        <TextView 
+            android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:textSize="20sp"
+    		android:textColor="#ffffff"
+    		android:text="@string/text"
+    		android:id="@+id/scrolling_text"/>
+    </LinearLayout>
+    
+    
+    
+</com.example.blurview.BlurView>
